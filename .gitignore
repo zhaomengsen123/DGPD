@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+checkpoints/
+weights/
+
+# Data and generated caches (keep documentation)
+data/**
+!data/README.md
+*.pkl
+*.pickle
+*.npz
+*_test_instance.pkl
+
+# Logs and experiment outputs
+log/*
+!log/.gitkeep
+runs/
+outputs/
+wandb/
+*.log
