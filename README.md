@@ -2,24 +2,6 @@
 
 This is the PyTorch implementation for our manuscript submitted to the *IEEE Internet of Things Journal*:
 
-> Sai Zhao, Chunxiao Li, Caisen Chen, and Shuai He.  
-> **Dual-Graph Prior-Guided Decoupled Debiasing for Next POI Recommendation.**
-
-The bibliographic information below can be updated after publication:
-
-```bibtex
-@article{zhao_dgpd,
-  author  = {Zhao, Sai and Li, Chunxiao and Chen, Caisen and He, Shuai},
-  title   = {Dual-Graph Prior-Guided Decoupled Debiasing for Next POI Recommendation},
-  journal = {IEEE Internet of Things Journal},
-  note    = {Under review}
-}
-```
-
-In this paper, we propose DGPD, a dual-graph prior-guided decoupled debiasing framework for next point-of-interest (POI) recommendation. DGPD models transition and geographical POI relations through two representation views and employs a spatio-temporal sequence encoder to capture users' dynamic mobility preferences.
-
-The implementation further derives a mobility-aware transition prior from collective check-in transitions and a recency-aware revisit prior from individual historical trajectories. These priors calibrate the neural prediction scores to reduce the effects of popularity, transition sparsity, and local behavioral noise. 
-
 ### Environment Requirement
 
 Python 3.10 or 3.11 is recommended. The required packages are as follows:
